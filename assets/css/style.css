@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    
+    
+}
+header {
+    text-align: center;
+    background-color: rgb(78, 76, 184);
+    color: aliceblue;
+    height:65px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 1000px;
+    background-color: bisque;
+
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+section {
+    width: 100%;
+}
+form {
+    display: flow-root;
+    justify-content: center;
+    align-content: center;
+    border-bottom: solid 5px black;
+}
+label {
+    font-size: 20px;
+    margin: 10px;
+}
+input {
+    margin: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+button {
+    margin: 10px;
+}
+.topSection {
+    
+    width: 100%;
+    height: 200px;
+    background-color: rgb(107, 103, 103);
+    
+}
+.topSection div {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.botSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 15%;
+    height: 175px;
+
+}
+.card div {
+    margin-top: 10px;
+}
