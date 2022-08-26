@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Da weather</title>
+    <title>Weather Search</title>
 </head>
 
 <body>
@@ -15,68 +15,58 @@
     <!-- left side search and cities -->
     <main>
         <aside>
-            <form>
+            <div class="search">
                 <label for="city">Search for a city:</label><br>
-                <input type="text" id="city" name="city"><br>
-                <input type="button" value="Search">
-            </form>
-            <button>cityyy</button>
-            <button>cityyy</button>
-            <button>cityyy</button>
-            <button>cityyy</button>
-            <button>cityyy</button>
-            <button>cityyy</button>
+                <input type="text" id="city" name="city" placeholder="Enter a city here"><br>
+                <button id="search">search</button>
+            </div>
+            
 
         </aside>
         <!-- weather and 5day forecast -->
         <section>
             <div class="topSection">
-                <h1>City and day</h1>
-                <Div>temp</Div>
-                <Div>wind</Div>
-                <Div>humidity</Div>
-                <Div>uvindex</Div>
+                <h1 id="cityT"></h1>
+                <Div id="windT"></Div>
+                <Div id="tempT"></Div>
+                <Div id="humT"></Div>
+                
             </div>
             <h1>5-day Forecast:</h1>    
             <div class="botSection">
-                <div class="card" >card
-                    <div>date</div>
-                    <div>silly emoji</div>
-                    <div>temp</div>
-                    <div>wind</div>
-                    <div>hummmidity</div>
+                <div class="card" >
+                    <div id="date1"></div>
+                    <div id="temp1"></div>
+                    <div id="wind1"></div>
+                    <div id="hum1"></div>
                 </div>
 
-                <div class="card" >card
-                    <div>date</div>
-                    <div>silly emoji</div>
-                    <div>temp</div>
-                    <div>wind</div>
-                    <div>hummmidity</div>
+                <div class="card" >
+                    <div id="date2"></div>
+                    <div id="temp2"></div>
+                    <div id='wind2'></div>
+                    <div id="hum2"></div>
                 </div>
 
-                <div class="card" >card
-                    <div>date</div>
-                    <div>silly emoji</div>
-                    <div>temp</div>
-                    <div>wind</div>
-                    <div>hummmidity</div>
+                <div class="card" >
+                    <div id='date3'></div>
+                    <div id='temp3'></div>
+                    <div id='wind3'></div>
+                    <div id='hum3'></div>
                 </div>
                 
-                <div class="card" >card
-                    <div>date</div>
-                    <div>silly emoji</div>
-                    <div>temp</div>
-                    <div>wind</div>
-                    <div>hummmidity</div>
+                <div class="card" >
+                    <div id='date4'></div>
+                    <div id='temp4'></div>
+                    <div id='wind4'></div>
+                    <div id='hum4'></div>
                 </div>
 
-                <div class="card" >card
-                    <div>date</div>
-                    <div>silly emoji</div>
-                    <div>temp</div>
-                    <div>wind</div>
-                    <div>hummmidity</div>
+                <div class="card" >
+                    <div id='date5'></div>
+                    <div id='temp5'></div>
+                    <div id='wind5'></div>
+                    <div id='hum5'></div>
                 </div>
             </div>
             
